@@ -1,0 +1,21 @@
+{
+  "name": "foreman",
+  "version": "0.1.0",
+  "description": "Make Claude a manager: Foreman routes your prompt to the best skills and agents, runs them in parallel like coworkers, keeps token spend low, and maintains a CLAUDE.md memory it updates as it works.",
+  "author": {
+    "name": "Borna Boyafraz",
+    "email": "bornaboyafraz@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/BornaBoyafraz/Foreman",
+  "repository": "https://github.com/BornaBoyafraz/Foreman.git",
+  "hooks": "./hooks/hooks.json",
+  "keywords": [
+    "orchestration",
+    "manager",
+    "agents",
+    "skills",
+    "token-budget",
+    "parallel"
+  ]
+}
