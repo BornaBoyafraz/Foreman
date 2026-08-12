@@ -52,6 +52,12 @@ You may still use the environment's built-in agents (`Explore`, `Plan`,
 `general-purpose`, and any domain-specific ones) when they're a better fit — pick the
 most specific capable one.
 
+**When the match isn't obvious, consult the routing catalog:**
+[`references/routing.md`](references/routing.md) maps common task shapes to the exact
+coworker and altitude, explains how to match against whatever skills/agents are
+installed, and gives a fast decision procedure. Load it whenever you're unsure which
+rung of the ladder a subtask belongs on.
+
 ## 4. Budget — spend tokens like they're yours
 - **Don't spawn to read.** For "where is X / how is Y wired," use one `Explore` agent
   (it reads excerpts, not whole files) instead of reading many files yourself.

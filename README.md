@@ -68,6 +68,7 @@ Foreman prefers the cheapest coworker that can do the job:
 .claude-plugin/plugin.json        # manifest
 .claude-plugin/marketplace.json   # marketplace entry
 skills/orchestrator/SKILL.md      # the manager protocol (core)
+skills/orchestrator/references/routing.md  # task-shape -> coworker catalog
 agents/researcher.md              # read-only investigation coworker
 agents/builder.md                 # implements a contained build subtask
 agents/reviewer.md                # read-only review coworker

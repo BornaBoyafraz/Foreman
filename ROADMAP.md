@@ -15,8 +15,10 @@ truth for *what actually happened* is the Run Log in `CLAUDE.md`.
 - [x] Push to GitHub.
 
 ## Day 2 — Depth
-- [ ] **Routing catalog** — a reference doc mapping common task shapes → the exact
-      skill/agent to reach for, so matching is fast and consistent.
+- [x] **Routing catalog** — `skills/orchestrator/references/routing.md`: maps task
+      shapes → the exact coworker + altitude, a method for matching installed
+      skills/agents, parallelization rules, and a fast decision procedure. Wired into
+      the orchestrator's Match step.
 - [ ] **Token accounting** — a lightweight convention for the manager to note the
       cheapest plan it chose and why (visible reasoning, not guesswork).
 - [ ] **Worked examples** — 2–3 end-to-end transcripts (`examples/`) showing a prompt
