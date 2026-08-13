@@ -13,6 +13,9 @@ independent pieces **in parallel**, spends **tokens** carefully, and logs what i
 Claude is the foreman. Skills and agents are the crew. Three to five of them can be
 working at once.
 
+> New here? The **[How to Use guide](USAGE.md)** walks through install → first run →
+> reading the Plan line, step by step.
+
 ## Install
 
 ```bash
@@ -105,6 +108,7 @@ scripts/validate.py               # validates manifests + frontmatter
 examples/                         # annotated end-to-end walkthroughs
 .github/workflows/validate.yml    # CI: runs validate.py on push/PR
 CLAUDE.md                         # project memory + run log
+USAGE.md                          # step-by-step how-to guide
 ROADMAP.md                        # what's next
 CHANGELOG.md                      # release notes
 LICENSE                           # MIT
