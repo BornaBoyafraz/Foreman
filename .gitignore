@@ -15,6 +15,9 @@ pnpm-debug.log*
 # Local Claude state
 .claude/settings.local.json
 
+# Project memory / dev run log — kept local, not published
+CLAUDE.md
+
 # Scratch
 *.tmp
 scratch/
