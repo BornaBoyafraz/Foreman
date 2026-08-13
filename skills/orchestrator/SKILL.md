@@ -69,6 +69,17 @@ rung of the ladder a subtask belongs on.
   agent's full output is not shown to the user — you relay only what matters.
 - If a subtask is trivial, the correct number of agents is **zero**.
 
+**Emit a Plan line before dispatching.** State the routing you chose and why it's the
+cheapest capable option — the altitude of each subtask (`inline` / `skill:<name>` /
+`agent:<type>`), a justification for every agent, and the wave structure. This makes the
+budget visible so it can be checked before it costs anything. Format and rules:
+[`references/token-accounting.md`](references/token-accounting.md). Keep it to one line
+for simple tasks:
+
+```
+Plan: single-file edit → inline. No agents.
+```
+
 ## 5. Dispatch — run it
 - Fire all **[independent]** subtasks for the current wave in a **single response**
   (multiple Agent calls / tool calls in one turn).
